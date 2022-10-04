@@ -8,5 +8,5 @@ export default defineConfig({
     vue(),
     Unocss(),
   ],
-  base: process.env.NODE_ENV === 'production' ? 'https://by3679512.github.io/yangtest/' : '/',
+  base: '/yangtest/',
 })
